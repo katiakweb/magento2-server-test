@@ -14,7 +14,7 @@ if [ $1 ] && [ $2 ] && [ $3 ] && [ $4 ];
 
         mkdir ~/temp
         cd ~/temp
-        wget https://github.com/magento/magento2/archive/$1.zip
+        wget https://github.com/magento/magento2/archive/2.1.7.zip/$1.zip
         DOWNLOADED_ZIP=$(ls -t *.zip | head -1)
         unzip -o $DOWNLOADED_ZIP -d /var/www/html
         cd /var/www/html
