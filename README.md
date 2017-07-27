@@ -20,6 +20,9 @@ To install Magento, first fill out the install.ini file then run the command "su
 * Set your user names and passwords: `nano install.ini` or `gedit install.ini`
 * Run the installer: `sudo bash install.sh`
 * Now, you have an installed **Magento 2** prepared to development
+* Go to sudo nano /etc/nginx/sites-available and rename default to default.BAK
+* Restart nginx:sudo service nginx restart
+* Visit your home page.
 
 ## After Installation
 
