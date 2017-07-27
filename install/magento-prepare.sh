@@ -43,6 +43,6 @@ if [ $1 ] && [ $2 ] && [ $3 ] && [ $4 ];
         echo "2nd parameter is magento folder name what is same as the domain address";
         echo "3rd parameter is magento linux user (it will create it)";
         echo "4th parameter is magento linux password (it will create it)";
-        echo "Try this: magento-prepare.sh 2.0.7 mywebshop.com magento magento";
+        echo "Try this: magento-prepare.sh 2.1.7 mywebshop.com magento magento";
         echo "";
 fi;
